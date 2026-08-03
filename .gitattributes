@@ -1,0 +1,18 @@
+# Normalize line endings so shell scripts stay executable on Linux servers
+# regardless of the platform they were committed from.
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.txt  text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# Binary files: never convert
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.pth  binary
+*.pt   binary
+*.npy  binary
+*.npz  binary

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv-lemon/
+venv/
+.env
+
+# Model checkpoints and datasets (never commit — see NOTICE)
+*.pth
+*.pt
+*.ckpt
+Cholec80/
+CholecT50/
+GraSP/
+AutoLaparo/
+
+# Generated artifacts
+preprocessed/
+runs/
+viz_out/
+*.lmdb/
+*.npy
+*.npz
+
+# Logs
+*.log
+nohup.out
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
